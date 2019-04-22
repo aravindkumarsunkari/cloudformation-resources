@@ -1,0 +1,13 @@
+---
+# Add global settings here
+
+# aws-cloudformation role settings
+Stack.Name: cloudformation-resources
+
+# By default the aws-cloudformation role expects your stack template
+# to be defined in the templates/stack.yml.j2 file
+#
+# Stack.Template: templates/stack.yml.j2
+# Alternatively you can use a template published in the aws-cloudformation role
+# See https://github.com/docker-production-aws/aws-cloudformation
+# Stack.Template: 'templates/network.yml.j2'
